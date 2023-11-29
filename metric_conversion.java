@@ -59,7 +59,7 @@ public class UnitConverter {
                 }
                 System.out.printf("-------------results-----------------");
                 // Display the result
-                System.out.printf("\n\n4%.2f %s is equal to %.2f %s%n", quantity, unitFrom, result, unitTo);
+                System.out.printf("\n\n%.2f %s is equal to %.2f %s%n", quantity, unitFrom, result, unitTo);
             } catch (InputMismatchException e) {
                 // Handle the case where the user enters a non-numeric value
                 System.out.println("Invalid input. Please enter a numeric value.");
